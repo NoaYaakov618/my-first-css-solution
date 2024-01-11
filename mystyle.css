@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* This ensures the container is centered vertically */
+}
+p {
+  font-size: small;
+  color: gray;
+  display: block;
+}
+
+.desc {
+  color: black;
+  display: block;
+}
+
+.container {
+  width: 280px;
+  height: 400px;
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+  padding: 5px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 10px 10px;
+}
+.bigImg {
+  padding-top: 10px;
+  margin: auto;
+}
+
+.profilePic {
+  width: 25px;
+  height: 25px;
+}
+
+button {
+  padding: 5px;
+  margin: 5px;
+  justify-self: flex-start;
+  display: block;
+}
+
+footer {
+  font-size: small;
+}
